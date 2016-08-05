@@ -1,0 +1,26 @@
+@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
+cinst -y chocolatey
+cinst -y boxstarter
+cinst -y dotnet4.5.1
+cinst -y powershell
+cinst -y ie11
+cinst -y 7zip.install
+cinst -y adobedigitaleditions
+cinst -y flashplayerplugin
+cinst -y flashplayeractivex
+cinst -y adobereader
+cinst -y googlechrome
+cinst -y gimp
+cinst -y jre8
+cinst -y k-litecodecpackfull
+cinst -y silverlight
+cinst -y firefox
+cinst -y notepadplusplus.install
+cinst -y omegat
+cinst -y subtitleworkshop
+cinst -y virtualbox
+cinst -y vlc
+cinst -y pdfcreator
+cinst -y cdburnerxp
+cinst -y audacity-lame
+cinst -y adobeshockwaveplayer

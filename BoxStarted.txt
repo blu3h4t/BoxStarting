@@ -1,0 +1,1 @@
+http://boxstarter.org/package/chocolatey,boxstarter,dotnet4.5.1,powershell,ie11,7zip.install,adobedigitaleditions,flashplayerplugin,flashplayeractivex,adobereader,googlechrome,gimp,jre8,k-litecodecpackfull,silverlight,firefox,notepadplusplus.install,subtitleworkshop,virtualbox,vlc,pdfcreator,cdburnerxp,audacity-lame,adobeshockwaveplayer,omegat
