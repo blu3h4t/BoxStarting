@@ -1,0 +1,22 @@
+sudo dd bs=4M if=/home/ndo/Downloads/archlinux-2016.08.01-dual.iso of=/dev/sdc status=progress && sync
+# loadkeys fr-latin1
+# fdisk
+(o n p 1 enter enter w)
+# mkfs.ext4 /dev/sda
+# mount -t ext4 /dev/sda /mnt
+# pacstrap /mnt base
+# genfstab -p /mnt >> /mnt/etc/fstab
+# arch-chroot /mnt
+# hwclock --systohc --utc
+# locale-gen
+# mkinitcpio -p linux
+# passwd
+# pacman -S grub
+# grub-install --target=i386-pc /dev/sda --force
+# pacman -S intel-ucode
+# grub-mkconfig -o /boot/grub/grub.cfg
+# exit
+# umount -R /mnt
+# reboot
+
+# 
