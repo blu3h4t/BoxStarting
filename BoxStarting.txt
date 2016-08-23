@@ -1,3 +1,3 @@
 @powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin
 cinst -y boxstarter
-START http://boxstarter.org/package/nr/url?https://gist.githubusercontent.com/blu3h4t/c978f75acb0f4d19ab88a3cedafaefa8/raw/fd5ac86595461ba9fba1d17130669bda145936f4/Chocolatey.txt
+START http://boxstarter.org/package/nr/url?https://gist.githubusercontent.com/blu3h4t/78508a8df1d6ac0b7ae920691345c79c/raw/d973a497c9670e75e9beaa62d43ac9b8a8bab706/Cinst
